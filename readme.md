@@ -28,4 +28,7 @@ Requerimientos:
 Información técnica: html en bootstrap
 Assets: Tia tomate se encargara de entregar las imágenes
 
-# 
+#imagenes:
+
+Vista Index
+![Alt text](draft/index.jpg?raw=true "Draft Index")
