@@ -1,7 +1,7 @@
 #ACTIVIDAD
 
-Fecha: 03 12 2018
-Empresa: Tia Tomate
+Fecha: 12 12 2018
+Empresa: Kaufmann
 Rubro: Automotor
 Target: Hombres y mujeres de 20 a 70 años clase A, B, C1, C2 y C3.
 Resumen: Desarrollar un landing corporativo para promocionar la gerencia de Marketing de la empresa Kaufmann.
@@ -28,7 +28,7 @@ Requerimientos:
 Información técnica: html en bootstrap
 Assets: Tia tomate se encargara de entregar las imágenes
 
-#imagenes:
+#IMAGENES
 
 Vista Index
 ![Alt text](draft/index.jpg?raw=true "Draft Index")
