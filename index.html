@@ -1,119 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh4IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/style.css">
+
 	<meta charset="UTF-8">
-	<title>Kaufmann - Marketing</title>
+	<meta name="description" content="Actividades de marketing y material audiovisual de apoyo del Grupo Kaufmann">
+	<meta name="keywords" content="marketing, kaufmann, mercedes-benz, freightliner, fuso, automóviles, vehículos comerciales, Chile, tecnología, innovación, postventa, calidad, sucursales, camiones, minibuses, furgones, power systems, generadores, minibuses">
+	<meta name="author" content="@williamsdavinchi">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon//android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/favicon-16x16.png">
+	<link rel="manifest" href="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/favicon/manifest.json">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/app.js"></script>
+
+	<title>Kaufmann | Marketing | Inicio</title>
+	
 </head>
-<nav class="navbar navbar-light bg-dark">
-	<a class="navbar-brand" href="#">Navbar</a>
-	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a class="nav-link text-light" href="#activities">Actividades</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link text-light" href="#team">Equipo</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link text-light" href="#resources">Recursos Gráficos</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link text-light" href="#contact">Contacto</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link disabled" href="#contact">Web Kaufmann</a>
-		</li>
-	</ul>
-</nav>
-	<body>
-		<div class="jumbotron introheader align-middle">
-		<video autoplay muted loop id="background_video">
-			<source src="http://www.kaufmann.cl/trucks/content/background.mp4" type="video/mp4">
-			</video>
-		</div>
-		<div class="container resources">	
-			<div class="row">
-				<div class="col-md-7">
-					<a href="#">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-					</a>
+
+<body>
+	<nav class="navbar-expand-lg text-light">
+		<div class="navbar-menu">
+			<a href="index.html">
+				<div class="navbar-option">
+					<p class="mkt__logo">MKT</p>
 				</div>
-				<div class="col-md-5 text-light	">
-					<h3>Project One</h3>
+			</a>
+			<a href="library.html">
+				<div class="navbar-option navbar-button">
+					<i class="fa fa-download" aria-hidden="true" autofocus></i>
+					<p class="navbar-buttontext">Biblioteca</p>
+				</div>
+			</a>
+			<a href="activities.html">
+				<div class="navbar-option navbar-button">
+					<i class="fa fa-check-circle" aria-hidden="true" autofocus></i>
+					<p class="navbar-buttontext">Actividades</p>
+				</div>
+			</a>
+		</div>
+	</nav>
+	<div class="jumbotron introheader align-middle">
+		<video autoplay muted loop class="background__video">
+			<source src="assets/video/background.mp4" type="video/mp4">
+		</video>
+		<div class="container introheader__title">
+			<div class="row introheader__text">
+				<div class="col-md-12">
+					<img style="padding-bottom: 2vh;" class="img-fluid rounded mb-3 mb-md-0" src="assets/images/logo_grupo_kaufmann.png" alt="Marketing">
+				</div>
+				<div class="col-md-12 text-light introheader__text">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-					<a class="btn btn-dark btn-block" href="#">View Project</a>
+				</div>
+			</div>
+			<div class="row align-self-center introheader__control">
+				<div class="align-self-center"><i class="fa fa-expand introheader__button  introheader__expandbutton" aria-hidden="true" autofocus></i></div>
+				<div class="row introheader__controlvideo">
+					<div class="introheader__button"><a href="http://www.kaufmann.cl/" target="_blank"><i class="fa fa-youtube" aria-hidden="true" autofocus></i></a></div>
 				</div>
 			</div>
 		</div>
-		<div class="container activities">
-			<div class="row">
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title activities__title">
-								<a href="#">Project One</a>
-							</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-						</div>
-					</div>
+	</div>
+	<div class="container">
+		<div class="row resumen hidden">
+			<div class="hidden">
+				<img class="resumen__img hidden" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/main_header.jpg">
+			</div>
+			<div class="col-md-12 resumen__text hidden">
+				<div class="text__barb hidden"></div>
+				<div class="text__titulo hidden">
+					<p>Marke<strong>Team</strong></p>
 				</div>
-				<div class="col-lg-4 col-sm-6 activities__content">
-					<div class="card h-100">
-						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title activities__title">
-								<a href="#">Project Two</a>
-							</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<div class="card h-100">
-						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title activities__title">
-								<a href="#">Project Three</a>
-							</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-						</div>
-					</div>
+				<div class="hidden">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem excepturi voluptas! Iure magnam voluptates harum explicabo dolorem inventore asperiores accusamus rerum, ut veniam ipsam eveniet id totam qui perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cumque ipsa fuga aspernatur quasi a, corporis doloribus similique natus molestiae iusto sequi, enim excepturi laboriosam placeat impedit autem debitis, rerum.</p>
 				</div>
 			</div>
 		</div>
-		<div id="team" class="jumbotron text-center text-light">
-			<div class="container team__container">
-				<div class="row">
-					<div class="col-sm">
-						<h4>Lorem ipsum dolor sit amet</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae omnis ipsam, quo in molestiae harum corporis, odio quis autem officia, facere repellendus quas. Optio quas, doloribus repudiandae odit sequi veniam! 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem corporis nesciunt, inventore enim quod, ab odit quia, consequatur rerum, sapiente magni. Nulla modi hic veritatis delectus illo, consequatur atque officiis.</p>
+	</div>
+	<div class="container containermain__button">
+		<div class="row rowmain__button">
+			<a class="main__buttona" href="">
+				<div class="main__button">
+					<div class="main__buttontext hidden">
+						<div class="text__subtitulo hidden">
+							<p>¿Necesitas material de Marketing?</p>
+						</div>
+						<div class="text__description hidden">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ratione quam eligendi, maxime aliquam inventore a odio! Consequuntur consectetur eum maiores vel libero, molestias necessitatibus deserunt qui sunt porro nam?</p>
+						</div>
 					</div>
-					<div class="col-sm">
-						<h4>Lorem ipsum dolor sit amet</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae omnis ipsam, quo in molestiae harum corporis, odio quis autem officia, facere repellendus quas. Optio quas, doloribus repudiandae odit sequi veniam! 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aut dignissimos eligendi, minus eos, quia ut. Dignissimos, ea? Culpa accusamus aliquid facere commodi sint amet, reprehenderit cum eaque magnam. Officia!</p>
+					<div class="main__butonimg"><img class="resumen__img hidden" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/library.jpg"></div>
+				</div>
+			</a>
+			<a class="main__buttona" href="contact.html">
+				<div class="main__button">
+					<div class="main__buttontext hidden">
+						<div class="text__subtitulo hidden">
+							<p>Contacto</p>
+						</div>
+						<div class="text__description hidden">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ratione quam eligendi, maxime aliquam inventore a odio! Consequuntur consectetur eum maiores vel libero, molestias necessitatibus deserunt qui sunt porro nam?</p>
+						</div>
 					</div>
-					<div class="col-sm">
-						<h4>Lorem ipsum dolor sit amet</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae omnis ipsam, quo in molestiae harum corporis, odio quis autem officia, facere repellendus quas. Optio quas, doloribus repudiandae odit sequi veniam! 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod perferendis deserunt non et dicta, architecto reprehenderit debitis quidem pariatur. Laudantium dicta aut id iure, architecto in dolore laboriosam voluptatem doloribus.</p>
+					<div class="main__butonimg"><img class="resumen__img hidden" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/cases.jpg"></div>
+				</div>
+			</a>
+			<a class="main__buttona" href="gallery.html">
+				<div class="main__button">
+					<div class="main__buttontext hidden">
+						<div class="text__subtitulo hidden">
+							<p>Galeria</p>
+						</div>
+						<div class="text__description hidden">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ratione quam eligendi, maxime aliquam inventore a odio! Consequuntur consectetur eum maiores vel libero, molestias necessitatibus deserunt qui sunt porro nam?</p>
+						</div>
+					</div>
+					<div class="main__butonimg"><img class="resumen__img hidden" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/gallery.jpg"></div>
+				</div>
+			</a>
+			<a class="main__buttona" href="">
+				<div class="main__button">
+					<div class="main__buttontext hidden">
+						<div class="text__subtitulo hidden">
+							<p>Actividades</p>
+						</div>
+						<div class="text__description hidden">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ratione quam eligendi, maxime aliquam inventore a odio! Consequuntur consectetur eum maiores vel libero, molestias necessitatibus deserunt qui sunt porro nam?</p>
+						</div>
+					</div>
+					<div class="main__butonimg"><img class="resumen__img hidden" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/activities.jpg"></div>
+				</div>
+			</a>
+
+			<div id="carouselheader" class="carousel slide hidden" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselheader" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselheader" data-slide-to="1"></li>
+					<li data-target="#carouselheader" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="main__imgcarousel" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/slider001.jpg" alt="">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>La potencia de Mercedes en la Fórmula 1</h5>
+							<p>El equipo Mercedes-AMG Petronas vuelve a encumbrarse por quinta vez consecutiva en lo más alto de la máxima categoría del automovilismo mundial. A continuación, algunas sorprendentes estadísticas publicadas por el sitio oficial de la Fórmula 1 que sustentan el histórico rendimiento de las flechas de plata.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="main__imgcarousel" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/slider002.jpg" alt="">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Prensa Automotriz de Chile premia a la Nueva Clase A y Clase X como “Los Mejores 2019”</h5>
+							<p>Como “Mejor Auto Premium” y “El Mejor de Los Mejores” fue reconocida la deslumbrante Nueva Clase A de Mercedes-Benz. Por su parte, la nueva Pickup de la marca alemana, Clase X, fue elegida como “Mejor Camioneta”de 2019.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="main__imgcarousel" src="http://www.kaufmann.cl/trucks/landing/mkt/assets/images/slider003.jpg" alt="">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Espectacular cierre del Tour New Cascadia convocó a más de 800 clientes de todo el país</h5>
+							<p>En una noche memorable se presentó el increíble New Cascadia de Freightliner a clientes, quienes llegaron de todas las regiones del país para conocer este aerodinámico, rentable y eficiente camión. Con la presencia del Vicepresidente Senior de Marketing y Ventas de Freightliner Estados Unidos y Stefan Kramer a cargo del humor, se cerró una gira por todo Chile que recorrió 19 sucursales y más de 4.500 kilómetros en ruta.</p>
+						</div>
 					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carouselheader" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselheader" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
+
 		</div>
-	</body>
+	</div>
 	<footer class="bg-dark text-light">
-		<div class="row">
-			<div class="col-sm">
-				<p>© 2018 - KAUFMANN S.A - Todos los derechos reservados</p>
-			</div>
-			<div class="col-sm">
-			</div>
-			<div class="col-sm">
+		<div class="container">
+			<div class="row">
+				<div class="footer__logo col-md-4">
+					<a href="http://www.kaufmann.cl" target="_blank"><img src="http://www.kaufmann.cl/wp-content/themes/kaufmann-2016/img/logo-kaufmann-header.png" alt=""></a>
+				</div>
+				<div class="col-md-6 footer__menu">
+					<div class="footer__button"><a href="">Contacto</a></div>
+					<div class="footer__button"><a href="">Corporativo</a></div>
+					<div class="footer__button"><a href="">Proveedores</a></div>
+					<div class="footer__button"><a href="">Trabaja con Nosotros</a></div>
+					<div class="footer__button"><a href="">Denuncias</a></div>
+				</div>
+				<div class="footer__disclaimer">
+					<p>© 2018 - KAUFMANN S.A - Todos los derechos reservados</p>
+				</div>
 			</div>
 		</div>
 	</footer>
+</body>
+
 </html>
