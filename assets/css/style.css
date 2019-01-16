@@ -550,6 +550,13 @@ footer a:hover {
 	background-repeat: no-repeat; 
 	background-size: fill;
 }
+.mainheader__activities {
+	background-image: url("http://www.kaufmann.cl/trucks/landing/mkt/assets/images/activities__main__bg.jpg");
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: fill;
+}
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
   box-shadow: none !important;
