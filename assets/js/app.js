@@ -5,13 +5,27 @@ $( document ).ready(function() {
 		}     
 
 	});
-	/* PREGUNTAR COMO HACER QUE SE EJECUTE UNO POR VEZ */
+
+	/* PREGUNTAR COMO HACER QUE 0SE EJECUTE UNO POR VEZ */
 	$(document).on('scroll', function(){
 		$('.hidden').each(function(){
 			if(isScrolledIntoView($(this))){
-				$(this).removeClass('hidden').addClass("visible");
+        var _this = this
+			  setTimeout(function() {
+          $(_this).removeClass('hidden').addClass("visible");
+        }, 250);
+        
 			}
 		});
+    $('.hidden2').each(function(){
+      if(isScrolledIntoView($(this))){
+        var _this = this
+        setTimeout(function() {
+          $(_this).removeClass('hidden').addClass("visible");
+        }, 500);
+        
+      }
+    });
 	});
 	$(function(){
 		$(".introheader__expandbutton").on("click", function(){
